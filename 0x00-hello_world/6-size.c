@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * code that prints the size of data types
+ * main - code that prints the size of data types
  * Description: it prints the sixe of data types
  * when the code is executed
  * Return: 0 if code passed else return 1
