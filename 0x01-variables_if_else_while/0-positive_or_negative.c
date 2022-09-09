@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * Dscription  - program that assigns random number
+ * Discription  - program that assigns random number
  * to the variable n each time it's executed
  *
  * Return: 0 else return 1
@@ -12,10 +12,9 @@
 */
 int main(void)
 {
-        int n;
-
-        srand(time(0));
-        n = rand() - RAND_MAX / 2;
+int n;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
 if (n > 0)
 {
 printf("%d is positive\n", n);
