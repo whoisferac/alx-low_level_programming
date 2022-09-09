@@ -2,7 +2,7 @@
 /*
  * main - printing string with printf
  * return: 0 if corect
- * function- printf for printing string
+ * description - function printf print to standard output
  */
 int main(void)
 {
