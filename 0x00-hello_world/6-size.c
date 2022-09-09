@@ -4,7 +4,7 @@
  *main - prints the size of different
  *variable and different stages
  *such as char, int, long etc.
- *
+ i*
  * Return : 0 if executed properly else 1
  */
 
