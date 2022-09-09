@@ -2,14 +2,13 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * A program that assigns random numbers
+ * main - Entry point 
+ * Prints random integers to var n each time executed
  *
  * Description: Program that assigns random number
  * to the variable n each time it's executed
  *
  * Return: 0 else return 1
- *
- * main- Prints random integers to var n each time executed
 */
 int main(void)
 {
