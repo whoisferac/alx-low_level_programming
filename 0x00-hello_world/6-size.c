@@ -1,11 +1,9 @@
 #include <stdio.h>
-
 /**
- *main - prints the size of different
- *variable and different stages
- *such as char, int, long etc.
- i*
- * Return : 0 if executed properly else 1
+ * code that prints the size of data types
+ * Description: it prints the sixe of data types
+ * when the code is executed
+ * Return: 0 if code passed else return 1
  */
 
 int main(void)
