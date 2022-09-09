@@ -2,8 +2,7 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main - Entry point 
- * Prints random integers to var n each time executed
+ * main - Entry point
  *
  * Description: Program that assigns random number
  * to the variable n each time it's executed
