@@ -10,21 +10,22 @@
 int main(void)
 {
 int n;
-int randomNumber;
+int feracSpecialNumber;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-randomNumber = rand () % 10;
-if (randomNumber > 5)
-{	
-printf("Last digit of %d is %d and is greater than 5\n", n , randomNumber);
-}
-if (randomNumber == 0)
-{	
-printf("Last digit of %d is %d and is 0\n", n , randomNumber);
-}
-if (randomNumber < 6 && randomNumber != 0)
+scanf("%d", n);
+feracSpecialNumber = n % 10;
+if (feracSpecialNumber > 5)
 {
-printf("Last digit of %d is %d and is less than 6 and not zero\n", n , randomNumber);
+printf("Last digit of %d is %d and is greater than 5\n", n , feracSpecialNumber);
+}
+if (feracSpecialNumber == 0)
+{
+printf("Last digit of %d is %d and is 0\n", n , feracSpecialNumber);
+}
+if (feracSpecialNumber < 6 && feracSpecialNumber != 0)
+{
+printf("Last digit of %d is %d and is less than 6 and not zero\n", n , feracSpecialNumber);
 }
 return (0);
 }
