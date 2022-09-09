@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - printing string with printf
  * return: 0 if corect
  * description - function printf print to standard output
