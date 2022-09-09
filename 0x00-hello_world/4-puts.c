@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main : printing out string Programming is like building
- * Return: 0 after printing the function
+ * main : printing a string to standard output using 'puts'
+ * Return: 1 if the function is positive. 0 if not
  */
 int main(void)
 {
