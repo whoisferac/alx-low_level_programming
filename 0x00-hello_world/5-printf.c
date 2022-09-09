@@ -1,9 +1,7 @@
 #include <stdio.h>
 /**
- * main - printing string with printf
- * return: 0 if corect
- (* function - return 0 if correct)*
- * description - function printf print to standard output
+ * main - printf , printing back a string
+ * Return: 1 if number is positive else 0
  */
 int main(void)
 {
