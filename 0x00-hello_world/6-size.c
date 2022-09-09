@@ -1,9 +1,11 @@
 #include <stdio.h>
+
 /**
  *main - prints the size of different variables
  *
- *Return - 0 ( if correct)
+ *Return - 0 (if correct)
  */
+
 int main(void)
 {
 	char charType;
