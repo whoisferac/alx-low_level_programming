@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - prints the size of different variables
  * return - 0 ( if correct)
  * camel casing used 
