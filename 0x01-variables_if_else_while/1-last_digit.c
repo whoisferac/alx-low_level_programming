@@ -13,7 +13,6 @@ int n;
 int feracSpecialNumber;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-scanf("%d", n);
 feracSpecialNumber = n % 10;
 if (feracSpecialNumber > 5)
 {
