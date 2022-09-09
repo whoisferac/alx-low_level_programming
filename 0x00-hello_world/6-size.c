@@ -3,7 +3,7 @@
 /**
  *main - prints the size of different variables
  *
- *Return : 0 if executed properly else 1
+ * Return : 0 if executed properly else 1
  */
 
 int main(void)
