@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main - prints the size of different variables
- * Return - 0 ( if correct)
+ *main - prints the size of different variables
+ *
+ *Return - 0 ( if correct)
  */
 int main(void)
 {
