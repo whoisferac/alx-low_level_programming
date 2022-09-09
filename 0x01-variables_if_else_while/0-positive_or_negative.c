@@ -2,12 +2,12 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * Discription  - program that assigns random number
+ * Description  - program that assigns random number
  * to the variable n each time it's executed
  *
  * Return: 0 else return 1
  *
- * main - the funtion assigns random integers
+ * main - Prints random integers
  * to var n each time executed
 */
 int main(void)
