@@ -1,12 +1,16 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /**
- * function: main printing without printf and puts
+ * main - entry point
+ *
  * description: printing without printf and puts
+ *
+ * Return: always 1 (error) as specified
  */
 
 int main(void)
 {
-	fwrite(2, "and that piece of art is useful\" - Dora Korpat, 2015-10-19\n" 61);
+	write(1, "and that piece of art is useful\" - Dora Korpat, 2015-10-19\n" 51);
 	return (1);
 }
