@@ -3,21 +3,15 @@
 /**
  *main - prints the size of different variables
  *
- *Return - 0 (if correct)
+ *Return : 0 if executed properly else 1
  */
 
 int main(void)
 {
-	char charType;
-	int intType;
-	long int longIntType;
-	long long int longLongIntType;
-	float floatType;
-
-printf("size of a char: %lu byte(s)\n", sizeof(charType));
-printf("size of an int: %lu byte(s)\n", sizeof(intType));
-printf("size of a long int: %lu byte(s)\n", sizeof(longIntType));
-printf("size of a long long int: %lu byte(s)\n", sizeof(longLongIntType));
-printf("size of a float: %lu byte(s)\n", sizeof(floatType));
+printf("size of a char: %d byte(s)\n", sizeof(char);
+printf("size of an int: %lu byte(s)\n", sizeof(int);
+printf("size of a long int: %lu byte(s)\n", sizeof(long int);
+printf("size of a long long int: %lu byte(s)\n", sizeof(long long int);
+printf("size of a float: %lu byte(s)\n", sizeof(float);
 return (0);
 }
