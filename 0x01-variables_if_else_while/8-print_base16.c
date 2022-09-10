@@ -9,7 +9,7 @@ int main(void)
 {
 char lets;
 char nums;
-for (nums = 0; nums < 10;; nums++)
+for (nums = 0; nums < 10; nums++)
 {
 putchar((nums % 10) + '0');
 }
