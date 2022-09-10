@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  *main - entry point
- *Description: printing chars backwards 
+ *Description: printing chars backwards
  *Return: 0 else 1
 */
 int main(void)
