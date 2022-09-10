@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - entry point
- * description: printing chars backwards 
- * return: 0 else 1
+ *main - entry point
+ *Description: printing chars backwards 
+ *Return: 0 else 1
 */
 int main(void)
 {
@@ -14,4 +14,4 @@ putchar(pla);
 }
 putchar('\n');
 return (0);
-}	
+}
