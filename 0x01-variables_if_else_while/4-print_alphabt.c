@@ -8,7 +8,6 @@
 int main(void)
 {
 char alp = 'a';
-char notPrint = 'e' 'q';
 for(alp = 'a'; alp <= 'z'; alp++)
 {
 if (alp != 'e' && alp != 'q')
