@@ -2,21 +2,20 @@
 #include <stdlib.h>
 /**
  * main - entry point
- * description: printing hexa-decimal numbers
- * return: 0 else 1
+ * Description: printing hexa-decimal numbers
+ * Return: 0 else 1
 */
 int main(void)
 {
 char lets;
 char nums;
-for (nums = 0; nums <= 9; nums++)
+for (nums = 0; nums < 10;; nums++)
 {
-putchar(nums);
+putchar((nums % 10) + '0');
 }
 for (lets = 'a'; lets <= 'f'; lets++)
 {
 putchar(lets);
 }
 putchar('\n');
-return (0);	
-}
+return (0);

@@ -2,13 +2,13 @@
 #include <stdlib.h>
 /**
  * main - entry point
- * description: using putchar to print numbers
- * return: 0 else 1
+ * Description: using putchar to print numbers
+ * Return: 0 else 1
 */
 int main(void)
 {
 int num;
-for (num = 0; num < 9; num++)
+for (num = 0; num < 10; num++)
 {
 putchar((num % 10) + '0');
 }
