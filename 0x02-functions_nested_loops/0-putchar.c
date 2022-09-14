@@ -1,8 +1,10 @@
 #include "main.h"
 /**
- * main - 
- * Description: printing header file
- * Return: 0 else 1
+ *main - prints putchar
+ *
+ *Description: printing header file
+ *
+ *Return: 0 else 1
 */
 int main(void)
 {
