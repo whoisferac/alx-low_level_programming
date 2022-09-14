@@ -13,6 +13,8 @@ for (a = 0; a <= n; a++)
 for (b = 0; b <= n; b++)
 {
 c = a * b;
+if (c >= 0 && c < 10)
+{
 if (b != 0)
 {
 _putchar(' ');
@@ -39,5 +41,6 @@ _putchar(' ');
 }
 }
 _putchar('\n');
+}
 }
 }
