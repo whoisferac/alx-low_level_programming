@@ -4,7 +4,7 @@
  *@n: value to be or not be transformed
  *Return: 0
 */
-int _abs(int)
+int _abs(int n)
 {
 if (n < 0)
 {
