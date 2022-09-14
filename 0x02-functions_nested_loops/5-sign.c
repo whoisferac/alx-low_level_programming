@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- *
- *
- *
+ *print_sign - prints characters positive or negetive or null
+ *Description: prints characters with _putchar
+ *Return: 1 if positive 0 if null and -1 if negetive
 */
 int print_sign(int n)
 {
-if (n >= 0)
+if (n > 0)
 {
 _putchar('+');
 return (1);
