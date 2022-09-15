@@ -6,11 +6,11 @@
 void print_line(int n)
 {
 int z;
-if (z > 1)
+if (n > 0)
 {
 for (z = 1; z <= n; z++)
 {
--putchar('_');
+_putchar('_');
 }
 _putchar('\n');
 }
