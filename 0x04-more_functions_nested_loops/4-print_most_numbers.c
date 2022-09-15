@@ -4,12 +4,12 @@
 */
 void print_most_numbers(void)
 {
-int z;
-for (z = '0'; z <= 9; z++)
+int i;
+for (i = '0'; i <= 9; i++)
 {
-if (z != '2' && z != '4')
+if (i != '2' && i != '4')
 {
-_putchar(z);
+_putchar(i);
 }
 }
 _putchar('\n');
