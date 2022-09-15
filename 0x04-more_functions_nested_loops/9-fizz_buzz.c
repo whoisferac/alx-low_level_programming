@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
  * main - prints 1 - 100 with iterations
- * Description: fizz multiple of 3 buzz multiple of 5 and fizzbuzz multiple * of 15
+ * Description: multiples of 3 5 and 15 are shown
  * Return: 0
 */
-int main()
+int main(void)
 {
 int x;
 for (x = 1; x <= 100; x++)
