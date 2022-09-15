@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
- * main - prints 1 - 100 with iterations
- * Description: multiples of 3 5 and 15 are shown
+ * main - print 1 - 100 in a partern
+ * Description: printed pattern 3 5 and 15
  * Return: 0
 */
 int main(void)
@@ -14,14 +15,14 @@ if (x % 15 == 0)
 printf("FizzBuzz ");
 }
 else
-if (x % 5 == 0)
-{
-printf("Buzz ");
-}
-else
 if (x % 3 == 0)
 {
 printf("Fizz ");
+}
+else
+if (x % 5 == 0)
+{
+printf("Buzz ");
 }
 else
 {
