@@ -28,6 +28,11 @@ else
 printf("%d ", x);
 }
 }
+else
+{
+printf("Buzz");
+}
+}
 printf("\n");
 return (0);
 }
