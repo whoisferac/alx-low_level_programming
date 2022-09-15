@@ -13,12 +13,12 @@ return (0);
 
 void print_multiples(int i)
 {
-int n, sum = 0;
-for (n = 3; n < 1; n++)
+int i, sum = 0;
+for (i = 3; i < 1; i++)
 {
-if ((n % 3 == 0) || (n% 5 == 0))
+if ((i % 3 == 0) || (i % 5 == 0))
 {
-	sum += n;
+	sum += i;
 }
 }
 printf("%d", sum);
