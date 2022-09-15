@@ -1,4 +1,4 @@
-#define main_h_
+#define MAIN_H_
 int _putchar(char c);
 int _isupper(int c);
 int _isdigit(int c);
