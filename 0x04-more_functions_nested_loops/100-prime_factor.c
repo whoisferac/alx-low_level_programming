@@ -5,23 +5,27 @@
  * Description: prime factoring extraction
  * Return: 0
  */
-void prime(long int z)
+int main(void)
 {
-int c = 2;
-while (z > 1)
+long int c , b, max;
+c = 612852475143;
+max = -1;
+
+while (c % 2 == 0)
 {
-if (z % c == 0)
-{
-printf("%d ", c);
-z /= c;
+max = 2;
+c /= 2;
 }
-else
-c++;
-}
-}
-long int factor(void)
+for (b = 3; b <= sqrt(c); b = b + 2)
 {
-long int z = 612852475143;
-prime(z);
-return (z);
+while (c % b == 0)
+{
+max = b;
+c = c / b;
+}
+}
+if (c > 2)
+max = c;
+printf("%ld\n", max);
+return (0);
 }
