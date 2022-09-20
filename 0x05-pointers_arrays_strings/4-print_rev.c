@@ -9,7 +9,7 @@ int z, v = 0;
 for (; s[v] != '\0'; v++)
 {
 }
-for (z = c - 1; z >= 0; z--)
+for (z = v - 1; z >= 0; z--)
 {
 _putchar(s[z]);
 }
