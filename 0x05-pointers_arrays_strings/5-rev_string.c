@@ -1,4 +1,9 @@
 #include "main.h"
+/**
+ * rev_string - prints sttring from back chars
+ * @s: pointer
+ * Description: prints string
+*/
 void rev_string(char *s)
 {
 int a, b, c, d;
