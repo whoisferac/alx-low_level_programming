@@ -1,21 +1,21 @@
 #include "main.h"
 /**
- * rev_string - prints sttring from back chars
+ * rev_string - prints string reverse
  * @s: pointer
  * Description: prints string
 */
 void rev_string(char *s)
 {
-int a, b, c, d;
-for (b = 0; s[b] != '\0'; b++)
+int length, a, div;
+char t;
+for (length = 0; s[length] != '\0'; length++);
+a = 0;
+div = length / 2;
+while (div--)
 {
-}
-c = b - 1;
-for (a = 0; a < c; a--)
-{
-d = s[b];
-s[b] = s[a];
-s[a] = d;
-b++;
+t = s[length - a - 1];
+s[length - a - 1] = s[a];
+s[a] = t;
+a++;
 }
 }
