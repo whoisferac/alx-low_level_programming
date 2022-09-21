@@ -1,17 +1,18 @@
 #include "main.h"
 /**
- * puts2 - printing every other char
+ * puts2 - printing even char
  * @str: string
 */
 void puts2(char *str)
 {
-int a, b;
-for (a = 0; str[a] != '\0'; a++)
+int a = 0;
+while (str[a] != '\0')
 {
+if (a % 2 == 0)
+{
+_putchar(str[a]);
 }
-for (b = 0; b <= a - 1; b += 2)
-{
-_putchar(str[b]);
+a++;
 }
 _putchar('\n');
 }
